@@ -1,0 +1,68 @@
+
+<BR><!title><B>General Info</B><BR>
+
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Noto Sans'; font-size:12pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">If you have all the required parts either </span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt; font-weight:600;"> python3 MurdKardQt4.py </span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">or<br /></span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt; font-weight:600;">python2  MurdKardQt4.py</span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;"> should run this thing.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">This (</span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt; font-weight:600;">'Help.htm'</span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">)   can be loaded with &gt;File&gt;Open  in murdkard and will display as a series of kards. </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">First be aware that this programme may not have all the fool proofing of fully developed applications. </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">Python is Copyright (c)  Python Software Foundation http://www.python.org</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">Qt® is a trademarks of the Qt Company https://www.qt.io/ </span><span style=" font-family:'sans-serif'; font-size:14px; color:#222222; background-color:#ffffff;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">Linux® is a trademark of LinusTorvalds. </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">PyQT which ties all this together is copyright  Riverbank Computing Limited  http://www.riverbankcomputing.co.uk</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;"><br /></span></p></body></html>
+<BR><!title><B>Install</B><BR>
+
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Noto Sans'; font-size:12pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;"> Installing should really be no problem providing you have all the required parts, IE </span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt; font-weight:600;">qt pyqt</span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;"> , and perhaps an SQL server. The easiest way to run this is to leave it all in one directory in which you have write access. There is perhaps a theoretical advantage in having write access to the directory since then the 'compiled' .</span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt; font-weight:600;">pyc</span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;"> files can be created but there will be little actual difference.<br /> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">  </span></p></body></html>
+<BR><!title><B>Shortcut Keys</B><BR>
+
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Noto Sans'; font-size:12pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">Murdkard makes use of the function keys but in some cases the X Window manager grabs these keys before they get to murdkard. IE in Window Maker &lt;F12&gt; brings up the Applications menu , so you can either disable the &lt;F12&gt; key in  Windowmaker Shortcut Preferences, or  replace occurances of Qt.Key_F12 in murdkard with something more compatible with Window Maker.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;"><br />&lt;F6&gt;shows pure text representation of kards same as Kard&gt;Plain Text<br />If a kard changes colour but nothing else happens that kard is plain text.<br />&lt;F7&gt;Brings up &gt;File &gt;Save As dialog.<br />&lt;F12&gt;to find text<br /><br />Beyond that Qt keybindings will also work. See the Qt documentation for QTextEdit.<br /></span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;"><br /></span></p></body></html>
+<BR><!title><B>Kards</B><BR>
+
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Noto Sans'; font-size:12pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">Kards can using Kard&gt;New.  Kard&gt;Sql query must be a valid querry for your particular SQL data server.  The text option Kard &gt;Plain Text or &lt;F6&gt; can be used simple editing such as &lt;B&gt; &lt;I&gt; etc for html kards. The editable text comes up in purple. </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">Kinds of kards. Kards can be either </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Dejavu Sans Mono'; font-size:14pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">plain text   	If &lt;F6&gt; just changes colour of text but does nothing else. a QTextEdit widget.</li>
+<li style=" font-family:'Dejavu Sans Mono'; font-size:14pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Qt Rich Text  	mostly like html a QTextEdit widget </li>
+<li style=" font-family:'Dejavu Sans Mono'; font-size:14pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">SQL data tables	(&gt;SQL &gt;Data Table) Only one at a time due to SQL connection being lost. a QDatatable. widget </li></ul>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Dejavu Sans Mono'; font-size:14pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">SQL tables as read only html tables SQL&gt;Get(html)  </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;"> Plain text and Rich text come with a default yellow background. all the others have a white background unless over ridden by the html. The purple background is only a temporary location to see and edit the real text.</span></p></body></html>
+<BR><!title><B>Rich Text</B><BR>
+
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Noto Sans'; font-size:12pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="fernT.png" /></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;"> What qt calls  </span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt; font-weight:600;">rich text </span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">  is a really a subset of html, and you can do a certain amount of formatting using </span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt; font-style:italic;">html </span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">codes and switching in and out of text mode. Or perhaps dress things up using graphics. Note that qt all by itself changes &lt;b&gt;&lt;/b&gt; &lt;i&gt;&lt;/i&gt; etc to something much more complicated with style sheets but does not require them.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">My suggested ending for these things is .krd but the kardfiles given a  name ending like '.htm'  will display correctly on one page on most browsers. </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">You could use some kind of html editor to produce or edit the murdkards but each card so produced must start with the text  </span><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt; font-weight:600;">&lt;BR&gt;&lt;!title&gt;&lt;B&gt; . </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt; font-weight:600;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">Unfortunately unlike qt3 richtext in qt 4 is ridiculously wordy, with all that style sheet junk.  </span></p></body></html>
+<BR><!title><B>Plain Text</B><BR>
+This is a plain text kard. Note that <f6> merely changes the colour.
+<BR><!title><B>Printing</B><BR>
+
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Noto Sans'; font-size:12pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;"> Printing will generally be slightly better if all text is html, (&gt;Edit &gt;Make Html for each page)  otherwise printing will just be a word dump of the text with words cut off in the middle , etc. At present printing is not all that great but more or less works at least for me.<br /> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Dejavu Sans Mono'; font-size:14pt;">  </span></p></body></html>
+<BR><!title><B>Customize</B><BR>
+
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Noto Sans'; font-size:12pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Bitstream Vera Sans';"> If you don't like how things work since the programme and the source are the same thing you can instantly try out your imrovements . For example if you do not like F12 as the short cut for find change the line that reads ' self.findAction.setAccel(Qt.Key_F12 )' to your choice for find. Note that python is </span><span style=" font-family:'Bitstream Vera Sans'; font-weight:600;"> very </span><span style=" font-family:'Bitstream Vera Sans';"> sensitive to the alignment of text so a python capable editor is best. I use xjed.</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
